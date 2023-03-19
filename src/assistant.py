@@ -215,11 +215,12 @@ class Assistant:
     def main_loop(self):
         while True:
             inp = input(f"{Fore.GREEN}You:{Style.RESET_ALL} ")
+            print()
             if inp == 'exit':
                 break
             
             if inp == 'tokens':
-                print(f"{Fore.MAGENTA}System: {Style.RESET_ALL}{Fore.YELLOW}({self.used_tokens}T){Style.RESET_ALL} ≈ {self.used_tokens/1000*0.002:.2f}USD")
+                print(f"{Fore.MAGENTA}System: {Style.RESET_ALL}{Fore.YELLOW}({self.used_tokens}T){Style.RESET_ALL} ≈ {self.used_tokens/1000*0.002:.2f}USD\n")
                 continue
             
             response, tokens = self.send_msg(inp)
@@ -229,7 +230,7 @@ class Assistant:
             for char in response:
                 print(char, end='', flush=True)
                 time.sleep(0.005)
-            print()
+            print("\n")
 
 
     
