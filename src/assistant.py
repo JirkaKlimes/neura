@@ -220,7 +220,7 @@ class Assistant:
                 break
             
             if inp == 'tokens':
-                print(f"{Fore.MAGENTA}System: {Style.RESET_ALL}{Fore.YELLOW}({self.used_tokens}T){Style.RESET_ALL} ≈ {self.used_tokens/1000*0.002:.2f}USD\n")
+                print(f"{Fore.MAGENTA}System: {Style.RESET_ALL}{Fore.YELLOW}({self.used_tokens}T){Style.RESET_ALL} ≈ {self.used_tokens/1000*0.002:.2f} $\n")
                 continue
             
             response, tokens = self.send_msg(inp)
