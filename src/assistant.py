@@ -216,7 +216,9 @@ class Assistant:
     
         return conversation[-1]['content'], tokens
     
-    def main_loop(self):
+    def main_loop(self, save = True):
+        if save:
+            self.__save_conversation()
         while True:
             inp = input(f"{Fore.GREEN}You:{Style.RESET_ALL} ")
             print()
