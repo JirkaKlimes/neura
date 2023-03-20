@@ -1,1 +1,1 @@
-Write it briefly!
+Write it briefly and concisely!

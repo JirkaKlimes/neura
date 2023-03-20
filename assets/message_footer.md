@@ -1,1 +1,1 @@
-(You knowledge is limited, use "query: ... " if you need online data.)
+(Use "query: ... " if you need online data.)

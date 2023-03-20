@@ -1,50 +1,10 @@
 [
     {
         "role": "user",
-        "content": "What is your name? (You knowledge is limited, use \"query: ... \" if you need online data.)"
+        "content": "If I ask you for anything for which you might have out dated answer, use query!"
     },
     {
         "role": "assistant",
-        "content": "My name is Neura. Nice to meet you!"
-    },
-    {
-        "role": "user",
-        "content": "Nice to meet you too. How much for 5 ETH? (You knowledge is limited, use \"query: ... \" if you need online data.)"
-    },
-    {
-        "role": "assistant",
-        "content": "What currency would you like the price of ETH to be in?"
-    },
-    {
-        "role": "user",
-        "content": "Czech Koruna (You knowledge is limited, use \"query: ... \" if you need online data.)"
-    },
-    {
-        "role": "assistant",
-        "content": "query: price of 1 ETH in CZK"
-    },
-    {
-        "role": "user",
-        "content": "P\u0159evodn\u00edk m\u011bn Vyberte, k\u00a0\u010demu chcete odeslat zp\u011btnou vazbu P\u0159\u00edpadn\u011b n\u00e1m poskytn\u011bte obecnou zp\u011btnou vazbu . P\u0159ehled trh\u016f > Ether 40\u00a0102,91 CZK Sledovat Sledujete Sledov\u00e1n\u00ed nebylo zah\u00e1jeno, zkuste to znovu pozd\u011bji Zru\u0161en\u00ed sledov\u00e1n\u00ed nebylo zah\u00e1jeno, zkuste to znovu pozd\u011bji \u2212164,91 (0,41\u00a0%) dnes uplynul\u00fdch 5\u00a0dn\u00ed minul\u00fd m\u011bs\u00edc uplynul\u00fdch 6\u00a0m\u011bs\u00edc\u016f za tento rok minul\u00fd rok uplynul\u00fdch 5\u00a0let za celou dobu 18. 3. 17:44 UTC \u00b7 Odm\u00edtnut\u00ed odpov\u011bdnosti 1 D 5 D 1 M 6 M YTD 1 R 5 R Max. 61.60USD () \u200e 10:30PM 39\u00a0500 39\u00a0500 40\u00a0000 40\u00a0000 40\u00a0500 40\u00a0500 41\u00a0000 41\u00a0000 41\u00a0500 41\u00a0500 0:00 6:00 12:00 \u017d\u00e1dn\u00fd graf nen\u00ed k\u00a0dispozici 0x Aion Ardor Ark Augur Bancor Basic Attention Token Binance Coin BitShares Bitcoin Bitcoin Cash Bitgem Bytecoin Bytom Cardano ChainLink Dash Decred DigiByte DigitalNote DigixDAO Dogecoin EOS ETC Enigma Ether Factom FunFair GameCredits Gas Gnosis Golem Groestlcoin Hshare ICON KingN Coin Komodo Lisk Litecoin MANA MaidSafeCoin MonaCoin Monero NEM NEO Nano Neblio Nexus Nxt OmiseGO Ontology PIVX Populous Powerledger QASH Qtum Quantstamp Raiden Network Token ReddCoin Request Network SALT Santiment Network Token Siacoin Status Steem Stellar Stratis Substratum Syscoin TenX Tether Time New Bank Tronix Verge Veritaseum Voyager Tokens Waltonchain Wanchain Waves XRP ZClassic Zilliqa aelf iCoin ETH $ Afgh\u00e1nsk\u00fd afgh\u00e1n Al\u017e\u00edrsk\u00fd din\u00e1r Angolsk\u00e1 kwanza Argentinsk\u00e9 peso Arm\u00e9nsk\u00fd dram Arubsk\u00fd zlat\u00fd Australsk\u00fd dolar Bahamsk\u00fd dolar Bahrajnsk\u00fd din\u00e1r Bajan dollar Banglad\u00e9\u0161sk\u00e1 taka Belarusian Ruble Belizsk\u00fd dolar Bermudsk\u00fd dolar Bhutan currency Bolivijsk\u00fd boliviano Bosensk\u00e1 konvertibiln\u00ed marka Botswansk\u00e1 pula Brazilsk\u00fd real Britsk\u00e1 libra Brunejsk\u00fd dolar Bulharsk\u00fd leva Burundsk\u00fd frank CFP frank Chilsk\u00e1 \u00fa\u010detn\u00ed jednotka (UF) Chilsk\u00e9 peso Chorvatsk\u00e1 kuna Costa Rican colon Dirham Dominik\u00e1nsk\u00e9 peso D\u00e1nsk\u00e1 koruna D\u017eibutsk\u00fd frank EUR Egyptsk\u00e1 libra Etiopsk\u00fd birr Fid\u017eijsk\u00fd dolar Filip\u00ednsk\u00e9 peso Gambijsk\u00fd dalasi Ghansk\u00fd cedi Gruz\u00ednsk\u00e9 lari Guatemalsk\u00fd quetzal Guinejsk\u00fd frank Guyansk\u00fd dolar Haitsk\u00fd gourde Hondurask\u00e1 lempira Hongkongsk\u00fd dolar Icelandic kr Indick\u00e1 rupie Indon\u00e9sk\u00e1 rupie Ir\u00e1ck\u00fd din\u00e1r Izraelsk\u00fd nov\u00fd \u0161ekel Jamajsk\u00fd dolar Japonsk\u00fd jen Jemensk\u00fd rij\u00e1l Jihoafrick\u00fd rand Jihokorejsk\u00fd won Jord\u00e1nsk\u00fd din\u00e1r Kajmansk\u00fd dolar Kambod\u017esk\u00fd riel Kanadsk\u00fd dolar Kapverdsk\u00e9 escudo Katarsk\u00fd rial Kaza\u0161sk\u00e9 tenge Ke\u0148sk\u00fd \u0161ilink Kolumbijsk\u00e9 peso Komorsk\u00fd frank Kon\u017esk\u00fd frank Kub\u00e1nsk\u00e9 peso Kuvajtsk\u00fd din\u00e1r Kyrgyzsk\u00fd som Laosk\u00fd kip Lebanese lira Lesothsk\u00fd loti Liberijsk\u00fd dolar Libyjsk\u00fd din\u00e1r Macajsk\u00e1 pataca Madagaskarsk\u00fd ariary Makedonsk\u00fd den\u00e1r Malajsijsk\u00fd ringgit Malawijsk\u00e1 kwacha Maledivsk\u00e1 rupie Marock\u00fd din\u00e1r Mauricijsk\u00e1 rupie Maurit\u00e1nsk\u00e1 ouguiya Ma\u010farsk\u00fd forint Mexick\u00e9 peso Moldavsk\u00fd leu Mozambick\u00fd metical Myanmarsk\u00fd kyat NT$ Namibijsk\u00fd dolar Nep\u00e1lsk\u00e1 rupie Nicaraguan cordoba Nigerijsk\u00e1 naira Nizozemskoantilsk\u00fd gulden Norsk\u00e1 koruna Novoz\u00e9landsk\u00fd dolar Om\u00e1nsk\u00fd rij\u00e1l Panamsk\u00e1 balboa Papu\u00e1nsk\u00e1 nov\u00e1 kina Paraguajsk\u00e9 guarani Peru\u00e1nsk\u00fd sol Polsk\u00fd zlot\u00fd P\u00e1kist\u00e1nsk\u00e1 rupie Renminbi Rumunsk\u00fd leu Rusk\u00fd rubl Rwandsk\u00fd frank SDG Salvadoran colon Sa\u00fadsk\u00fd rij\u00e1l Seychelsk\u00e1 rupie Sierro-leonsk\u00fd leone Singapursk\u00fd dolar Som\u00e1lsk\u00fd \u0161ilink Srbsk\u00fd din\u00e1r Sr\u00edlansk\u00e1 rupie St\u0159edoafrick\u00fd CFA frank Surinamsk\u00fd dolar Svazijsk\u00fd lilangeni TL Tanzansk\u00fd \u0161ilink Thajsk\u00fd baht Ton\u017esk\u00e1 paanga Trinidadsk\u00fd dolar Tunisk\u00fd din\u00e1r Turkmensk\u00fd manat T\u00e1d\u017eick\u00e9 somoni Ugandsk\u00fd \u0161ilink Ukrajinsk\u00e1 h\u0159ivna Uzbeck\u00fd sum Vietnamese \u0111\u1ed3ng (Remonetized) V\u00fdchodokaribsk\u00fd dolar Zambijsk\u00e1 kwacha Z\u00e1padoafrick\u00fd CFA frank lek venezuelsk\u00fd bol\u00edvar \u00c1zerb\u00e1jd\u017e\u00e1nsk\u00fd manat \u00cdr\u00e1nsk\u00fd rij\u00e1l \u010cesk\u00e1 koruna \u010d\u00ednsk\u00fd j\u00fcan (offshore) \u0160alamounsk\u00fd dolar \u0160v\u00e9dsk\u00e1 koruna \u0160v\u00fdcarsk\u00fd frank \u0628\u064a\u0632\u0648 \u0623\u0648\u0631\u0648\u062c\u0648\u0627\u064a CZK Zp\u011btn\u00e1 vazba V\u00edce informac\u00ed o: Ether"
-    },
-    {
-        "role": "assistant",
-        "content": "As of today, the price of 1 ETH is 40 102.91 CZK. Therefore 5 ETH would cost approximately 200 514.55 CZK."
-    },
-    {
-        "role": "user",
-        "content": "Newest version of .NET? (You knowledge is limited, use \"query: ... \" if you need online data.)"
-    },
-    {
-        "role": "assistant",
-        "content": "query: latest version of .NET"
-    },
-    {
-        "role": "user",
-        "content": "Vybran\u00fd \u00faryvek z\u00a0webu Download .NET Version Latest release Latest release date .NET Core 2.1 2.1.30 August 19, 2021 .NET Core 2.0 2.0.9 July 10, 2018 .NET Core 1.1 1.1.13 May 14, 2019 .NET Core 1.0 1.0.16 May 14, 2019 4 dal\u0161\u00ed \u0159\u00e1dky .NET Downloads (Linux, macOS, and Windows) - Microsoft .NET microsoft.com https://dotnet.microsoft.com \u203a en-us \u203a download \u203a dotnet microsoft.com https://dotnet.microsoft.com \u203a en-us \u203a download \u203a dotnet O\u00a0vybran\u00fdch \u00faryvc\u00edch \u2022 Zp\u011btn\u00e1 vazba"
-    },
-    {
-        "role": "assistant",
-        "content": "According to the Microsoft .NET download page as of my query on March 18th 2023, the latest release of .NET is .NET 6.0.0 which was released on November 8th 2021."
+        "content": "Ok, I will use it."
     }
 ]
