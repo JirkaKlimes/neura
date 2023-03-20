@@ -27,7 +27,7 @@ class Assistant:
         self.temperature = temperature
         self.model = model
         self.max_model_tokens = max_model_tokens
-        
+    
         self.__init_attrs()
     
     def __init_attrs(self):
@@ -36,6 +36,7 @@ class Assistant:
         self.__scraper = Scrapper()
         
         self.used_tokens = 0
+        self.__used_q_in_last_message = False
     
     def __load_assests(self):
         with open('./assets/system_msg.md', 'r', encoding='utf-8') as f:
@@ -92,7 +93,7 @@ class Assistant:
         logit_bias = {id: -10 for id in ids}
         
         # bias for "query"
-        logit_bias.update({22766: 20})
+        logit_bias.update({22766: 15})
 
         return logit_bias
 
@@ -184,6 +185,7 @@ class Assistant:
                     logging.debug("No Query")    
                     return used_tokens + completion['usage']['completion_tokens']
                 logging.debug("Yes Query")
+                self.__used_q_in_last_message = True
                 self.__add_online_data(query, conversation)
                 return self.__extend_conversation(conversation, used_tokens + completion['usage']['completion_tokens'])
 
@@ -199,6 +201,8 @@ class Assistant:
         raise Exception(f"Unhadled finish reason: {response['finish_reason']}")
     
     def send_msg(self, msg: str) -> str:
+        self.__used_q_in_last_message = False
+        
         conversation = self.__conversation.copy()
         new_msg = {
             "role": "user",
@@ -226,7 +230,7 @@ class Assistant:
             response, tokens = self.send_msg(inp)
             self.used_tokens += tokens
 
-            print(f"{Fore.BLUE}{self.name} {Fore.YELLOW}({tokens}T){Style.RESET_ALL}{Fore.BLUE}:{Style.RESET_ALL} ", end='')
+            print(f"{Fore.BLUE}{self.name} {Fore.YELLOW}({tokens}T){Style.RESET_ALL}{Fore.BLUE}{'🌐' if self.__used_q_in_last_message else ''}:{Style.RESET_ALL} ", end='')
             for char in response:
                 print(char, end='', flush=True)
                 time.sleep(0.005)
